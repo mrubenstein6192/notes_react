@@ -5,7 +5,7 @@ const { Note } = require("../models");
 function getAllNotes(req, res) {
 
   Note
-    .findAll({})
+    .find({})
     .then(dbNoteData => res.status(200).json(dbNoteData))
     .catch(err => {
       console.log(err);
