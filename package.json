@@ -1,0 +1,24 @@
+{
+  "name": "notes_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrubenstein6192/notes_react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrubenstein6192/notes_react/issues"
+  },
+  "homepage": "https://github.com/mrubenstein6192/notes_react#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "mongoose": "^5.5.11",
+    "morgan": "^1.9.1"
+  }
+}
